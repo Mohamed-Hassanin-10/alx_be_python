@@ -1,7 +1,7 @@
 num1 = int(input("Enter the first number:"))
 num2 = int(input("Enter the second number:"))
 
-operation = input("Choose the operation (+, -, *, /):")
+operations = input("Choose the operation (+, -, *, /):")
 
 add = num1 + num2
 sub = num1 - num2
