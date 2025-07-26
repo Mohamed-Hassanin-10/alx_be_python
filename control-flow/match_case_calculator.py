@@ -8,7 +8,7 @@ sub = num1 - num2
 mult = num1 * num2
 div = num1 / num2
 
-match opr:
+match operations:
     case '+':
       print("The result is "  + str(add))
 
