@@ -1,13 +1,13 @@
 num1 = int(input("Enter the first number:"))
 num2 = int(input("Enter the second number:"))
 
-operations = input("Choose the operation (+, -, *, /):")
+operation = input("Choose the operation (+, -, *, /):")
 
 add = num1 + num2
 sub = num1 - num2
 mult = num1 * num2
 
-match operations:
+match operation:
     case '+':
       print("The result is "  + str(add))
 
