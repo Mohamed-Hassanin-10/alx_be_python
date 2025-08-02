@@ -6,7 +6,6 @@ operations = input("Choose the operation (+, -, *, /):")
 add = num1 + num2
 sub = num1 - num2
 mult = num1 * num2
-div = num1 / num2
 
 match operations:
     case '+':
@@ -22,7 +21,7 @@ match operations:
       if num2 ==0:
         print("Cannot divide by zero")
       else:
-       print("The resilt is " + str(div))
+       print("The resilt is " + str(num1 / num2))
 
     case _:
       print("Invalid input")
