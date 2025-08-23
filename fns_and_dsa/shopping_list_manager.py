@@ -7,7 +7,7 @@ def display_menu():
 
 def main():
     shopping_list = []
-    
+
     while True:
         display_menu()
         choice = input("Enter your choice: ")
@@ -20,7 +20,7 @@ def main():
             if item in shopping_list:
                 shopping_list.remove(item)
             else:
-                print("item not found")      
+                print("item not found")
         elif choice == '3':
             print(shopping_list)
         elif choice == '4':
@@ -31,3 +31,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
